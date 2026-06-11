@@ -3,5 +3,11 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/web_HW5/'
+
+  base: '/web_HW5/',
+
+  server: {
+    host: '0.0.0.0',
+    port: 5173
+  }
 })
